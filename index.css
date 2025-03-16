@@ -836,7 +836,7 @@ footer {
 /* MOBILE DESIGN */
 @media (max-width: 768px) {
   body {
-    padding: 1.5rem 1rem;
+    padding: 2.5rem 1rem;
   }
 
   main {
@@ -863,10 +863,6 @@ footer {
     gap: 8px;
   }
 
-  .login-button {
-    /* gap: 2px; */
-  }
-
   .fa {
     display: flex;
   }
@@ -886,9 +882,10 @@ footer {
   }
 
   .header-menu {
-    width: 300px;
+    width: 290px;
     flex-direction: row;
-    /* gap: 10px; */
+    gap: 4px;
+    padding: 0 0.6rem;
   }
 
   .frame-1 {
@@ -908,6 +905,10 @@ footer {
     margin-top: 20px;
   }
 
+  header button {
+    margin-top: 20px;
+  }
+
   .frame-1 {
     height: 390px;
     /* gap: 20px; */
@@ -918,7 +919,7 @@ footer {
   }
 
   .community {
-    margin-top: 25px;
+    margin-top: 35px;
   }
 
   .community-sectiontitle-description {
@@ -939,7 +940,7 @@ footer {
     flex-direction: column;
     padding: 15px 10px;
     gap: 10px;
-    /* width: 100%; */
+    margin-top: 10px;
   }
 
   .membership-org {
@@ -961,7 +962,7 @@ footer {
     /* padding: 0px; */
     /* eyes on this */
     padding: 15px 10px;
-    gap: 36px;
+    gap: 56px;
   }
 
   .unlock img,
@@ -974,7 +975,7 @@ footer {
   .frame-6,
   .frame-6-2 {
     width: 320px;
-    gap: 84px;
+    gap: 134px;
   }
 
   .frame-5 {
@@ -995,12 +996,13 @@ footer {
 
   .frame-5 p {
     height: 120px;
+    margin-top: 15px;
   }
 
   /* Second Section */
   /* Second div */
   .acheivement {
-    margin-top: 155px;
+    margin-top: 205px;
     /* height: 340px; */
     flex-direction: column;
     /* eyes on this */
@@ -1020,16 +1022,16 @@ footer {
     width: 300px;
     font-size: 30px;
     height: 140px;
-    
   }
 
   .section-heading p {
     width: 300px;
+    margin-top: 20px;
   }
 
   .count {
     width: 300px;
-    margin-top: 70px;
+    margin-top: 110px;
     /* height: 420px; */
     /* flex-direction: row; */
   }
@@ -1051,14 +1053,34 @@ footer {
     line-height: 16px;
   }
 
+  .calender {
+    margin-top: 45px;
+  }
+
+  .frame-5-2 h1,
+  .frame-5-2 p {
+    margin-top: 15px;
+  }
+
+  .frame-5-2 button {
+    margin-top: 30px;
+  }
+
   /* fort div */
   .customer {
-    margin-top: 200px;
+    margin-top: 300px;
     flex-direction: column;
     padding: 15px 0px;
     gap: 40px;
-    background-color: red;
+    /* height: 650px; */
+    /* background-color: red; */
   }
+
+  .frame-7 {
+    margin-top: 30px;
+  }
+
+ 
 
   .frame-11 {
     gap: 72px;
@@ -1078,12 +1100,14 @@ footer {
     margin-top: 100px;
     flex-direction: column;
     gap: 10px;
+    /* margin-top: 50px; */
   }
 
   .frame-10 {
     width: 240px;
     padding: 4px;
     gap: 25px;
+    margin-top: 120px;
   }
 
   .frame-10 img {
@@ -1091,9 +1115,14 @@ footer {
     height: 30px;
   }
 
+
+.frame-13  {
+  margin-top: 20px;
+}
+
   /* last div in sec-section */
   .community-update {
-    margin-top: 300px;
+    margin-top: 330px;
     gap: 100px;
   }
 
@@ -1103,7 +1132,7 @@ footer {
 
   .community-update-caring h2 {
     width: 250px;
-    height: 24px;
+    height: 84px;
     font-size: 20px;
     text-align: center;
   }
@@ -1113,12 +1142,14 @@ footer {
     height: 32px;
     font-size: 12px;
     text-align: center;
+    margin-top: 10px;
   }
 
   .frame-15 {
     flex-direction: column;
     padding: 15px 0px;
-    gap: 120px;
+    gap: 140px;
+    margin-top: 30px;
   }
 
   .frame-15-1 {
@@ -1155,7 +1186,7 @@ footer {
 
   /* footer */
   footer {
-    margin-top: 2230px;
+    margin-top: 2330px;
   }
 
   .frame-16 {
