@@ -10,13 +10,15 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  font-family: "Inter", sans-serif;
 }
 
 h1,
 h2,
 h3,
-h4 p {
-  font-family: "Inter", sans-serif;
+h4,
+p {
+  /* font-family: "Inter", sans-serif; */
 }
 
 /* ! Basic Styling*/
@@ -75,7 +77,6 @@ nav img {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 0px;
 }
 
 .login-button {
@@ -159,8 +160,10 @@ header button {
 }
 
 .community {
-  margin-top: 20px;
+  margin-top: 40px;
   height: 416px;
+  background-color: #fff;
+  /* border: 2px solid greenyellow; */
 }
 
 .community-sectiontitle-description {
@@ -213,7 +216,7 @@ header button {
   justify-content: center;
   align-items: center;
   gap: 8px;
-  box-shadow: #abbed133;
+  box-shadow: 0 4px 6px rgba(171, 190, 209, 0.2);
 }
 
 .member {
@@ -247,14 +250,15 @@ header button {
 /* Coming to this */
 /* Second Section */
 .sec-section {
-  margin-top: 40px;
+  margin-top: 90px;
   height: 2242px;
-  /* background-color: yellow; */
+  background-color: #fff;
   display: flex;
   flex-direction: column;
-  /* justify-content: space-between; */
+
   align-items: center;
   gap: 48px;
+  /* border: 2px solid hotpink; */
 }
 /* first div */
 .unlock {
@@ -276,7 +280,7 @@ header button {
   height: 268px;
   display: flex;
   flex-direction: column;
-  gap: 32px;
+  gap: 62px;
 }
 
 .frame-5 {
@@ -387,7 +391,7 @@ header button {
 .row-1-member img,
 .row-2-member img {
   width: 48px;
-  height: 48pxpx;
+  height: 48px;
 }
 
 .row-1-member h2,
@@ -441,7 +445,7 @@ header button {
   background-color: #f5f7fa;
 }
 
-.customer img {
+.customer .image  {
   width: 326px;
   height: 326px;
   border-radius: 8px;
@@ -449,17 +453,17 @@ header button {
 
 .frame-11 {
   width: 748px;
-  /* height: 324px; */
+  height: 324px;
   display: flex;
   /* flex-direction: column; */
-  gap: 32px;
+  gap: 62px;
 }
 
 .content {
   width: 748px;
   height: 224px;
   display: flex;
-  gap: 16px;
+  gap: 45px;
 }
 
 .content-details p {
@@ -550,7 +554,7 @@ header button {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 16px;
+  gap: 26px;
   /* background-color: brown; */
 }
 
@@ -848,19 +852,19 @@ footer {
     padding: 0 1rem;
     gap: 10px;
     flex-direction: column;
-    height: 150px;
+    height: 160px;
+    padding: 1rem;
   }
 
   nav img {
-    /* width: 99.49px; */
-    height: 24px;
+    display: block;
   }
 
   .header-menu {
-    width: 190px;
+    /* width: 220px; */
     flex-direction: column;
-    /* display: none; */
-    gap: 8px;
+    /* gap: 8px; */
+    font-size: 14px;
   }
 
   .fa {
@@ -876,9 +880,13 @@ footer {
     padding: 15px 10px;
   }
 
-  .illustration {
-    width: 300px;
+  .illustration,
+  .unlock img,
+  .customer .image,
+  .content img {
+    width: 100%;
     height: 250px;
+    display: block;
   }
 
   .header-menu {
@@ -968,8 +976,8 @@ footer {
   .unlock img,
   .unlock-2 img,
   .content img {
-    width: 300px;
-    height: 250px;
+    /* width: 300px;
+    height: 250px; */
   }
 
   .frame-6,
@@ -1080,8 +1088,6 @@ footer {
     margin-top: 30px;
   }
 
- 
-
   .frame-11 {
     gap: 72px;
     flex-direction: column;
@@ -1115,10 +1121,9 @@ footer {
     height: 30px;
   }
 
-
-.frame-13  {
-  margin-top: 20px;
-}
+  .frame-13 {
+    margin-top: 20px;
+  }
 
   /* last div in sec-section */
   .community-update {
