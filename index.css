@@ -21,25 +21,6 @@ button {
   cursor: pointer;
 }
 
-.fa {
-  display: none;
-  width: 154.49px;
-  height: 24px;
-}
-
-.fa-fas-content {
-  flex-direction: column;
-  margin-top: 40px;
-}
-
-.show {
-  display: flex;
-}
-
-.hidden {
-  display: none;
-}
-
 .clients-section {
   text-align: center;
   /* background-color: red; */
@@ -135,15 +116,15 @@ header nav img {
   gap: 104px;
 }
 .text {
-  width: 657px;
-  height: 276px;
+  /* width: 657px; */
+  /* height: 276px; */
   display: flex;
   flex-direction: column;
   gap: 32px;
 }
 
 .hero-section h1 {
-  height: 152px;
+  /* height: 152px; */
   font-weight: 600;
   font-size: 64px;
   line-height: 76px;
@@ -157,7 +138,7 @@ header nav img {
 .hero-section p {
   font-weight: 400;
   font-size: 16px;
-  height: 24px;
+  /* height: 24px; */
   letter-spacing: 0%;
   color: #717171;
 }
@@ -179,9 +160,8 @@ header nav img {
 
 .community {
   margin-top: 40px;
-  height: 416px;
+  /* height: 416px; */
   background-color: #fff;
- 
 }
 
 .community-sectiontitle-description {
@@ -211,7 +191,7 @@ header nav img {
 
 .organization {
   margin-top: 20px;
-  height: 280px;
+  /* height: 280px; */
   display: flex;
   justify-content: space-between;
   padding: 0 144px;
@@ -223,8 +203,8 @@ header nav img {
 }
 
 .membership-org {
-  width: 299px;
-  height: 260px;
+  /* width: 299px; */
+  /* height: 260px; */
 
   border-radius: 8px;
   padding: 24px 32px;
@@ -257,14 +237,14 @@ main {
   margin-top: 90px;
   height: 2242px;
   background-color: #fff;
-  
+  /* display: flex;
+  flex-direction: column; */
   gap: 48px;
-
 }
 
 /* first section */
 .unlock {
-  height: 433px;
+  /* height: 433px; */
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -277,16 +257,16 @@ main {
 }
 
 .unlock-content {
-  width: 661px;
-  height: 268px;
+  /* width: 661px; */
+  /* height: 268px; */
   display: flex;
   flex-direction: column;
-  gap: 62px;
+  gap: 52px;
 }
 
 .unlock-cdetails {
-  width: 601px;
-  height: 184px;
+  /* width: 301px; */
+  /* height: 184px; */
   display: flex;
   flex-direction: column;
   gap: 16px;
@@ -303,7 +283,7 @@ main {
 }
 
 .unlock-cdetails h1 {
-  height: 88px;
+  /* height: 88px; */
   font-weight: 600;
   font-size: 36px;
   line-height: 44px;
@@ -312,7 +292,7 @@ main {
 }
 
 .unlock-cdetails p {
-  height: 80px;
+  /* height: 80px; */
   font-weight: 400;
   font-size: 14px;
   line-height: 20px;
@@ -321,6 +301,7 @@ main {
 
 /* Second Section */
 .acheivement {
+  /* margin-top: 280px; */
   margin-top: 30px;
   display: flex;
   justify-content: space-between;
@@ -329,15 +310,15 @@ main {
 
 .section-heading {
   width: 540px;
-  height: 120px;
+  /* height: 120px; */
   display: flex;
   flex-direction: column;
   gap: 8px;
 }
 
 .section-heading h2 {
-  width: 408px;
-  height: 88px;
+  /* width: 408px; */
+  /* height: 88px; */
   font-weight: 600;
   font-size: 36px;
   line-height: 44px;
@@ -352,8 +333,8 @@ main {
 }
 
 .section-heading p {
-  width: 540px;
-  height: 24px;
+  /* width: 540px; */
+  /* height: 24px; */
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
@@ -361,7 +342,7 @@ main {
 }
 
 .count {
-  width: 540px;
+  /* width: 540px; */
   display: flex;
   flex-direction: column;
   gap: 40px;
@@ -369,15 +350,15 @@ main {
 
 .row-1,
 .row-2 {
-  height: 60px;
+  /* height: 60px; */
   display: flex;
   gap: 30px;
 }
 
 .row-1-member,
 .row-2-member {
-  width: 255px;
-  height: 60px;
+  /* width: 255px; */
+  /* height: 60px; */
   display: flex;
   align-items: center;
   gap: 16px;
@@ -392,7 +373,7 @@ main {
 .row-1-member h2,
 .row-2-member h2 {
   width: 191px;
-  height: 36px;
+  /* height: 36px; */
   font-weight: 700;
   font-size: 28px;
   line-height: 36px;
@@ -402,7 +383,7 @@ main {
 .row-1-member p,
 .row-2-member p {
   width: 191px;
-  height: 24px;
+  /* height: 24px; */
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
@@ -420,6 +401,7 @@ main {
 
 /* fourt Section  */
 .customer {
+  /* width: 600px; */
   margin-top: 30px;
   display: flex;
   justify-content: space-between;
@@ -456,6 +438,7 @@ main {
 }
 
 .content-details :nth-child(1) {
+  /* width: 300px; */
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
@@ -471,7 +454,7 @@ main {
 }
 
 .container {
-  display: flex;
+  /* display: flex; */
   align-items: center;
   justify-content: center;
   gap: 32px;
@@ -482,6 +465,7 @@ main {
   justify-content: center;
   align-items: center;
   gap: 30px;
+  /* padding: 0rem 1rem; */
 }
 
 .content-logos img {
@@ -495,8 +479,6 @@ main {
   align-items: center;
   gap: 8px;
   padding: 8px;
-
-
 }
 
 .content-paragrapgh p {
@@ -551,7 +533,7 @@ main {
 }
 
 .community-update-content-2 {
-  height: 366px;
+  /* height: 366px; */
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -623,7 +605,7 @@ main {
 /* footer  */
 footer {
   height: 628px;
-  margin-top: 160px;
+  margin-top: 60px;
 }
 
 .footer-content {
@@ -661,7 +643,6 @@ footer {
 
 .footer-content img {
   color: #fff;
- 
 }
 
 /*  footer */
@@ -842,10 +823,9 @@ footer {
 
   .hero-section {
     flex-direction: column;
-    /* margin-top: 50px; */
+
     text-align: center;
     gap: 145px;
-    /* eyes on this */
     padding: 15px 10px;
   }
 
@@ -859,14 +839,14 @@ footer {
   }
 
   .text {
-    width: 300px;
+    /* width: 300px; */
     gap: 10px;
     align-items: center;
   }
 
   .hero-section h1 {
     font-size: 32px;
-    height: 200px;
+    /* height: 200px; */
     text-align: center;
   }
 
@@ -877,11 +857,6 @@ footer {
 
   .hero-section button {
     margin-top: 20px;
-  }
-
-  .frame-1 {
-    height: 390px;
-    /* gap: 20px; */
   }
 
   .illustration {
@@ -915,14 +890,14 @@ footer {
 
   .membership-org {
     margin-top: 20px;
-    width: 280px;
+    /* width: 280px; */
     gap: 15px;
     padding: 15px 20px;
   }
 
   /* Main Section */
   main {
-    margin-top: 601px;
+    /* margin-top: 601px; */
   }
 
   .unlock {
@@ -931,38 +906,36 @@ footer {
     gap: 56px;
   }
 
+
   .unlock img,
   .unlock-content,
   .frame-6-2 {
     width: 320px;
-    gap: 134px;
+    gap: 44px;
   }
 
   .unlock-cdetails {
-    width: 320px;
+    /* width: 320px; */
     gap: 8px;
   }
 
   .unlock-cdetails h1 {
-    height: 130px;
+    /* height: 130px; */
     font-size: 22px;
-    line-height: 30px;
+    /* line-height: 30px; */
   }
 
   .unlock-cdetails p {
-    height: 120px;
+    /* height: 120px; */
     margin-top: 15px;
   }
 
   /* Second Section */
-  /* Second div */
   .acheivement {
-    margin-top: 235px;
-    /* height: 340px; */
+    margin-top: 45px;
     flex-direction: column;
-    /* eyes on this */
     padding: 15px 10px;
-    gap: 20px;
+    /* gap: 20px; */
   }
 
   .section-heading {
@@ -978,12 +951,12 @@ footer {
 
   .section-heading p {
     width: 300px;
-    margin-top: 20px;
+    /* margin-top: 20px; */
   }
 
   .count {
-    width: 300px;
-    margin-top: 110px;
+    /* width: 300px; */
+    margin-top: 50px;
   }
 
   .row-1,
@@ -1014,35 +987,53 @@ footer {
     margin-top: 30px;
   }
 
+.unlock-2 {
+  margin-top: 50px;
+}
+
+
   /* fort div */
   .customer {
-    margin-top: 300px;
+    margin-top: 40px;
     flex-direction: column;
     padding: 18px 0px;
     gap: 40px;
-    align-items: stretch;
-    /* background-color: red; */
+    /* width: 300px; */
+    /* align-items: stretch; */
   }
 
   .container {
-    /* height: 88px; */
-    /* margin-top: 195px; */
+    /* padding: 0rem 1rem; */
     flex-direction: column;
-    gap: 10px;
-    /* margin-top: 250px; */
+    gap: 20px;
   }
+
+  .content,
+  .acheivement {
+    padding: 0rem 1rem;
+  }
+
+.content-details {
+  /* width: 300px; */
+  /* padding: 0rem 1rem; */
+  /* gap: 20px; */
+}
 
   .content-logos img {
     width: 30px;
     height: 30px;
   }
 
+.content-paragrapgh {
+margin-top: 15px;
+}
+
   .content-paragrapgh img {
     width: 18px;
     height: 18px;
   }
 
-  /* last div in sec-section */
+  /* fifth Section  */
   .community-update {
     margin-top: 70px;
     gap: 100px;
@@ -1070,7 +1061,7 @@ footer {
   .community-update-content-2 {
     flex-direction: column;
     padding: 15px 0px;
-    gap: 140px;
+    gap: 40px;
     margin-top: 30px;
   }
 
@@ -1090,7 +1081,7 @@ footer {
 
   .frame-15-1-content {
     width: 280px;
-    bottom: -35%;
+    /* bottom: -35%; */
     right: 1.2%;
   }
 
