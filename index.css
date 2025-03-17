@@ -6,19 +6,13 @@
 }
 
 body {
-  padding: 2rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  /* padding: 2rem; */
+  /* display: flex; */
+  /* align-items: center; */
+  /* justify-content: center; */
   font-family: "Inter", sans-serif;
-}
-
-h1,
-h2,
-h3,
-h4,
-p {
-  /* font-family: "Inter", sans-serif; */
+  min-height: 4376px;
+  margin: 2rem 2rem;
 }
 
 /* ! Basic Styling*/
@@ -52,7 +46,7 @@ button {
 
 main {
   /* width: 1440px; */
-  height: 4376px;
+  /* height: 4376px; */
   /* border: 2px solid red; */
 }
 
@@ -248,19 +242,20 @@ header button {
 }
 
 /* Coming to this */
-/* Second Section */
-.sec-section {
+/* Main Section */
+main {
   margin-top: 90px;
   height: 2242px;
   background-color: #fff;
-  display: flex;
-  flex-direction: column;
+  /* display: flex; */
+  /* flex-direction: column; */
 
-  align-items: center;
+  /* align-items: center; */
   gap: 48px;
   /* border: 2px solid hotpink; */
 }
-/* first div */
+
+/* first section */
 .unlock {
   height: 433px;
   display: flex;
@@ -320,7 +315,6 @@ header button {
 }
 
 /* Second Section */
-/* Second div */
 .acheivement {
   margin-top: 30px;
   /* height: 288px; */
@@ -415,7 +409,6 @@ header button {
 }
 
 /* third Section */
-/* /* third div */
 .calender {
   margin-top: 30px;
 }
@@ -433,19 +426,21 @@ header button {
 }
 
 /* fourt Section  */
-/* fourt div  */
 .customer {
   margin-top: 30px;
-  height: 390;
+  min-height: 390px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 78px;
+  /* padding: 10%; */
   padding: 32px 144px;
+  flex-wrap: wrap;
   background-color: #f5f7fa;
+  /* background-color: red; */
 }
 
-.customer .image  {
+.customer .image {
   width: 326px;
   height: 326px;
   border-radius: 8px;
@@ -455,7 +450,6 @@ header button {
   width: 748px;
   height: 324px;
   display: flex;
-  /* flex-direction: column; */
   gap: 62px;
 }
 
@@ -841,11 +835,12 @@ footer {
 @media (max-width: 768px) {
   body {
     padding: 2.5rem 1rem;
+    margin: 0rem;
   }
 
   main {
-    width: 4250px;
-    padding: 0rem 1rem;
+    /* width: 4250px; */
+    /* padding: 0rem 1rem; */
   }
 
   nav {
@@ -961,25 +956,18 @@ footer {
   /* Second Section */
   /* first div */
 
-  .sec-section {
+  main {
     margin-top: 601px;
   }
 
   .unlock {
     flex-direction: column;
-    /* padding: 0px; */
-    /* eyes on this */
+
     padding: 15px 10px;
     gap: 56px;
   }
 
   .unlock img,
-  .unlock-2 img,
-  .content img {
-    /* width: 300px;
-    height: 250px; */
-  }
-
   .frame-6,
   .frame-6-2 {
     width: 320px;
@@ -1010,7 +998,7 @@ footer {
   /* Second Section */
   /* Second div */
   .acheivement {
-    margin-top: 205px;
+    margin-top: 235px;
     /* height: 340px; */
     flex-direction: column;
     /* eyes on this */
@@ -1020,9 +1008,6 @@ footer {
 
   .section-heading {
     width: 300px;
-    /* height: 160px; */
-    /* text-align: center; */
-    /* gap: 12px; */
   }
 
   .section-heading h2,
@@ -1040,8 +1025,6 @@ footer {
   .count {
     width: 300px;
     margin-top: 110px;
-    /* height: 420px; */
-    /* flex-direction: row; */
   }
 
   .row-1,
@@ -1076,11 +1059,14 @@ footer {
 
   /* fort div */
   .customer {
+    /* min-height: 100vh; */
+    /* height: auto; */
+
     margin-top: 300px;
     flex-direction: column;
     padding: 15px 0px;
     gap: 40px;
-    /* height: 650px; */
+    align-items: stretch;
     /* background-color: red; */
   }
 
