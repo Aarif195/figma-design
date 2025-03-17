@@ -21,41 +21,40 @@ button {
   cursor: pointer;
 }
 
-.clients-section {
+/* .clients-section {
   text-align: center;
-  /* background-color: red; */
   background-color: #f5f7fa;
   padding: 1rem 0rem;
-}
-.clients-section h3 {
+} */
+/* .clients-section h3 {
   font-weight: 600;
   font-size: 36px;
   line-height: 44px;
   color: #4d4d4d;
   margin-bottom: 10px;
-}
+} */
 
-.clients-section p {
+/* .clients-section p {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
   color: #717171;
-}
+} */
 
-.clients-logos {
+/* .clients-logos {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   gap: 70px;
   margin-top: 10px;
-}
+} */
 
-.clients-logos img {
+/* .clients-logos img {
   width: 48px;
   height: 48px;
   object-fit: contain;
   border-radius: 8px;
-}
+} */
 
 header nav {
   /* height: 84px; */
@@ -203,8 +202,6 @@ header nav img {
 }
 
 .membership-org {
-  /* width: 299px; */
-  /* height: 260px; */
 
   border-radius: 8px;
   padding: 24px 32px;
@@ -237,8 +234,6 @@ main {
   margin-top: 90px;
   height: 2242px;
   background-color: #fff;
-  /* display: flex;
-  flex-direction: column; */
   gap: 48px;
 }
 
@@ -265,8 +260,7 @@ main {
 }
 
 .unlock-cdetails {
-  /* width: 301px; */
-  /* height: 184px; */
+
   display: flex;
   flex-direction: column;
   gap: 16px;
@@ -283,7 +277,6 @@ main {
 }
 
 .unlock-cdetails h1 {
-  /* height: 88px; */
   font-weight: 600;
   font-size: 36px;
   line-height: 44px;
@@ -786,7 +779,7 @@ footer {
     /* width: 300px; */
   }
 
-  .clients-section p {
+  /* .clients-section p {
     font-size: 12px;
   }
 
@@ -798,15 +791,13 @@ footer {
   .clients-logos {
     gap: 30px;
     margin-top: 20px;
-  }
+  } */
 
   header nav {
-    /* padding: 0 1rem; */
     gap: 20px;
     flex-direction: column;
     /* height: 160px; */
     padding: 2rem 1.5rem;
-    /* margin-top: 10px; */
   }
 
   header nav img {
@@ -915,18 +906,14 @@ footer {
   }
 
   .unlock-cdetails {
-    /* width: 320px; */
     gap: 8px;
   }
 
   .unlock-cdetails h1 {
-    /* height: 130px; */
     font-size: 22px;
-    /* line-height: 30px; */
   }
 
   .unlock-cdetails p {
-    /* height: 120px; */
     margin-top: 15px;
   }
 
