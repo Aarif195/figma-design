@@ -6,10 +6,6 @@
 }
 
 body {
-  /* padding: 2rem; */
-  /* display: flex; */
-  /* align-items: center; */
-  /* justify-content: center; */
   font-family: "Inter", sans-serif;
   min-height: 4376px;
   margin: 2rem 2rem;
@@ -47,14 +43,14 @@ button {
 .clients-section {
   text-align: center;
   /* background-color: red; */
-  background-color: #F5F7FA;
+  background-color: #f5f7fa;
   padding: 1rem 0rem;
 }
 .clients-section h3 {
   font-weight: 600;
   font-size: 36px;
   line-height: 44px;
-  color: #4D4D4D;
+  color: #4d4d4d;
   margin-bottom: 10px;
 }
 
@@ -96,12 +92,9 @@ header nav img {
 
 .header-menu {
   list-style: none;
-  /* width: 588px; */
-  /* height: 24px; */
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* padding:orem 3rem; */
   gap: 30px;
 }
 
@@ -134,7 +127,6 @@ header nav img {
 }
 
 .hero-section {
-  /* height: 599px; */
   background-color: #f5f7fa;
   display: flex;
   justify-content: space-between;
@@ -189,7 +181,7 @@ header nav img {
   margin-top: 40px;
   height: 416px;
   background-color: #fff;
-  /* border: 2px solid greenyellow; */
+ 
 }
 
 .community-sectiontitle-description {
@@ -207,7 +199,6 @@ header nav img {
   font-weight: 600;
   font-size: 32px;
   line-height: 44px;
-  /* text-align: center; */
   color: #4d4d4d;
 }
 
@@ -234,7 +225,7 @@ header nav img {
 .membership-org {
   width: 299px;
   height: 260px;
-  /* border: 2px solid greenyellow; */
+
   border-radius: 8px;
   padding: 24px 32px;
   display: flex;
@@ -245,11 +236,7 @@ header nav img {
   box-shadow: 0 4px 6px rgba(171, 190, 209, 0.2);
 }
 
-
-
 .membership-org h3 {
-  /* width: 267px;
-  height: 72px; */
   font-weight: 700;
   font-size: 28px;
   line-height: 36px;
@@ -258,8 +245,6 @@ header nav img {
 }
 
 .membership-org p {
-  /* width: 251px;
-  height: 60px; */
   font-weight: 400;
   font-size: 14px;
   line-height: 20px;
@@ -267,18 +252,14 @@ header nav img {
   text-align: center;
 }
 
-/* Coming to this */
 /* Main Section */
 main {
   margin-top: 90px;
   height: 2242px;
   background-color: #fff;
-  /* display: flex; */
-  /* flex-direction: column; */
-
-  /* align-items: center; */
+  
   gap: 48px;
-  /* border: 2px solid hotpink; */
+
 }
 
 /* first section */
@@ -288,7 +269,6 @@ main {
   justify-content: space-between;
   align-items: center;
   padding: 0 144px;
-  
 }
 
 .unlock img {
@@ -317,7 +297,6 @@ main {
   height: 52px;
   border-radius: 4px;
   padding: 14px 32px;
-  /* gap: 10px; */
   border: none;
   color: #fff;
   background-color: #4caf4f;
@@ -343,11 +322,9 @@ main {
 /* Second Section */
 .acheivement {
   margin-top: 30px;
-  /* height: 288px; */
   display: flex;
   justify-content: space-between;
   padding: 64px 144px;
-  /* background-color: #f5f7fa; */
 }
 
 .section-heading {
@@ -385,7 +362,6 @@ main {
 
 .count {
   width: 540px;
-  /* height: 160px; */
   display: flex;
   flex-direction: column;
   gap: 40px;
@@ -403,7 +379,6 @@ main {
   width: 255px;
   height: 60px;
   display: flex;
-  /* justify-content: space-between; */
   align-items: center;
   gap: 16px;
 }
@@ -443,21 +418,15 @@ main {
   height: 433.4px;
 }
 
-
-
 /* fourt Section  */
 .customer {
   margin-top: 30px;
-  /* min-height: 390px; */
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 78px;
-  /* padding: 10%; */
   padding: 32px 144px;
-  /* flex-wrap: wrap; */
   background-color: #f5f7fa;
-  /* background-color: red; */
 }
 
 .customer .image {
@@ -467,16 +436,13 @@ main {
 }
 
 .content {
-  
   display: flex;
   flex-direction: column;
-  align-items:  baseline;
+  align-items: baseline;
   gap: 22px;
 }
 
 .content-details {
-  /* width: 748px; */
-  /* height: 324px; */
   display: flex;
   flex-direction: column;
   gap: 22px;
@@ -486,13 +452,10 @@ main {
   font-weight: 600;
   font-size: 20px;
   line-height: 28px;
-  /* text-align: center; */
-  color: #4CAF4F;
+  color: #4caf4f;
 }
 
-
 .content-details :nth-child(1) {
-  /* height: 168px; */
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
@@ -501,25 +464,20 @@ main {
 }
 
 .content-details :nth-child(3) {
-  /* color: red; */
-   font-weight: 400;
+  font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  color: #89939E;
+  color: #89939e;
 }
-
-
 
 .container {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 32px;
-  /* border: 2px solid red; */
 }
 
 .content-logos {
-
   display: flex;
   justify-content: center;
   align-items: center;
@@ -538,12 +496,10 @@ main {
   gap: 8px;
   padding: 8px;
 
-  /* border: 2px solid rgb(119, 34, 34); */
+
 }
 
 .content-paragrapgh p {
-  /* width: 188px; */
-  /* height: 24px; */
   font-weight: 600;
   font-size: 20px;
   line-height: 28px;
@@ -556,8 +512,6 @@ main {
   height: 24px;
 }
 
-
-
 /* fifth section */
 .community-update {
   margin-top: 60px;
@@ -566,7 +520,6 @@ main {
   flex-direction: column;
   align-items: center;
   gap: 26px;
-  /* background-color: brown; */
 }
 
 .community-update-content-1 {
@@ -645,7 +598,6 @@ main {
 }
 
 .frame-15-1-content-frame13 {
-  /* width: 285px; */
   height: 44px;
   display: flex;
   align-items: center;
@@ -674,7 +626,7 @@ footer {
   margin-top: 160px;
 }
 
- .footer-content {
+.footer-content {
   height: 300px;
   padding: 32px 0;
   display: flex;
@@ -684,7 +636,7 @@ footer {
   background-color: #f5f7fa;
 }
 
- .footer-content h3 {
+.footer-content h3 {
   width: 887px;
   font-weight: 600;
   font-size: 64px;
@@ -709,7 +661,7 @@ footer {
 
 .footer-content img {
   color: #fff;
-  /* background-color: #4caf4f; */
+ 
 }
 
 /*  footer */
@@ -728,7 +680,6 @@ footer {
   flex-direction: column;
   gap: 40px;
   color: #fff;
-  /* border: 2px solid red; */
 }
 
 .company-info img {
@@ -849,25 +800,24 @@ footer {
 /* MOBILE DESIGN */
 @media (max-width: 768px) {
   body {
-    padding: 2rem 0.9rem;
+    padding: 2rem 1rem;
     margin: 0rem;
     /* width: 300px; */
   }
 
+  .clients-section p {
+    font-size: 12px;
+  }
 
-.clients-section  p{
-font-size: 12px;
-}
+  .clients-section h3 {
+    font-size: 5px;
+    margin-bottom: 20px;
+  }
 
-.clients-section h3 {
-  font-size: 5px;
-  margin-bottom: 20px;
-}
-
-.clients-logos {
-gap: 30px;
-margin-top: 20px;
-}
+  .clients-logos {
+    gap: 30px;
+    margin-top: 20px;
+  }
 
   header nav {
     /* padding: 0 1rem; */
@@ -882,7 +832,6 @@ margin-top: 20px;
     display: block;
   }
 
-
   .header-menu {
     /* width: 280px; */
     flex-direction: row;
@@ -890,8 +839,6 @@ margin-top: 20px;
     gap: 8px;
     padding: 0.3rem 1rem;
   }
-
-
 
   .hero-section {
     flex-direction: column;
@@ -973,7 +920,7 @@ margin-top: 20px;
     padding: 15px 20px;
   }
 
-/* Main Section */
+  /* Main Section */
   main {
     margin-top: 601px;
   }
@@ -995,7 +942,6 @@ margin-top: 20px;
     width: 320px;
     gap: 8px;
   }
-
 
   .unlock-cdetails h1 {
     height: 130px;
@@ -1042,7 +988,6 @@ margin-top: 20px;
 
   .row-1,
   .row-2 {
-   
     height: 150px;
     flex-direction: column;
     /* gap: 60px; */
@@ -1071,8 +1016,6 @@ margin-top: 20px;
 
   /* fort div */
   .customer {
-   
-
     margin-top: 300px;
     flex-direction: column;
     padding: 18px 0px;
@@ -1080,8 +1023,6 @@ margin-top: 20px;
     align-items: stretch;
     /* background-color: red; */
   }
-
-
 
   .container {
     /* height: 88px; */
@@ -1091,19 +1032,16 @@ margin-top: 20px;
     /* margin-top: 250px; */
   }
 
-
-
   .content-logos img {
     width: 30px;
     height: 30px;
   }
 
-.content-paragrapgh img {
-  width: 18px;
-  height: 18px;
-} 
+  .content-paragrapgh img {
+    width: 18px;
+    height: 18px;
+  }
 
- 
   /* last div in sec-section */
   .community-update {
     margin-top: 70px;
@@ -1173,13 +1111,13 @@ margin-top: 20px;
     margin-top: 2500px;
   }
 
- .footer-content {
+  .footer-content {
     padding: 20px 0;
     gap: 46px;
     height: 250px;
   }
 
-.footer-content h3 {
+  .footer-content h3 {
     width: 300px;
     height: 120px;
     font-size: 32px;
